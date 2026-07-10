@@ -1,1 +1,6 @@
+streamlit>=1.36
+pillow>=10.0
+pypdf>=4.2
+pymupdf>=1.24
+pytesseract>=0.3.10
 
