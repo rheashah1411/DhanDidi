@@ -1,0 +1,7 @@
+# DhanDidi Kaggle dataset download snippet
+# The loader in dataset_kb.py uses this same public dataset identifier.
+import kagglehub
+
+DATASET_SLUG = "mehaksingal/personal-financial-dataset-for-india"
+path = kagglehub.dataset_download(DATASET_SLUG)
+print("Dataset downloaded to:", path)
